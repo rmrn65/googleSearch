@@ -1,10 +1,20 @@
 *{
   font-size: 40px;
 }
-#Googlelogo img{
+img.GoogleLogo{
   width: 92px;
   height: 30px;
-  margin:5px 20px;
-  padding: 0px;
+  margin:auto;
+  padding: 10px;
   border:0;
+}
+input[name="search"] {
+  display: inline-block;
+  margin: auto;
+  width: 600px;
+  line-height: 40px;
+  border: 1px hsla(116, 0%, 93%, 1.00) solid;
+  border-radius: 25px;
+  margin-left: 20px;
+  flex: none;
 }
