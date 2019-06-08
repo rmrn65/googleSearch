@@ -1,20 +1,48 @@
-*{
-  font-size: 40px;
+
+header {
+  border-bottom: 1px solid hsla(116, 0%, 95%, 1.00);
+  margin-top: 10px;
 }
-img.GoogleLogo{
-  width: 92px;
-  height: 30px;
-  margin:auto;
-  padding: 10px;
-  border:0;
+
+.masthead {
+  display: flex;
+  align-items: center;
 }
+/*         images style
+------------------------------------------------------------
+*/
+img.logo {
+  width: 90px;
+  margin: 20px;
+  display: inline-block;
+  flex: none;
+}
+img.profpic{
+  margin-left:10px;
+  margin-right: 20px;
+  width: 35px;
+  height: 35px;
+  border-radius: 20%;
+
+}
+/*
+INPUT STYLE
+-----------------------------------------------------------------------
+*/
 input[name="search"] {
   display: inline-block;
   margin: auto;
-  width: 600px;
+  width: 500px ;
+  background-image: url('https://img.icons8.com/material/24/000000/keyboard.png');
+  background-repeat: no-repeat;
+  background-position: 485px 7px;  
   line-height: 40px;
   border: 1px hsla(116, 0%, 93%, 1.00) solid;
   border-radius: 25px;
+  padding: 10px 15px;
+  font:16px arial;
   margin-left: 20px;
   flex: none;
+  text-decoration: none;
+  
 }
