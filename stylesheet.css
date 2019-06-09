@@ -25,24 +25,65 @@ img.profpic{
   border-radius: 20%;
 
 }
+img.mic{
+  float:left;
+  display:inline-block;
+  flex:none;
+  padding: 7px;
+  border-top: 1px hsla(116, 0%, 93%, 1.00) solid;
+  border-bottom: 1px hsla(116, 0%, 93%, 1.00) solid;
+
+}
+#searchbtn {
+  border:none;
+  background-color:white;
+  float:left;
+  margin-right:auto;
+  border-right: 1px hsla(116, 0%, 93%, 1.00) solid;
+  border-top: 1px hsla(116, 0%, 93%, 1.00) solid;
+  border-bottom: 1px hsla(116, 0%, 93%, 1.00) solid;
+  border-radius:0 25px 25px 0;
+  cursor: pointer;
+  outline:none;
+}
+img.loupe{
+  width:24px;
+  height:24px;
+  padding:4.5px;
+  padding-right:8px;
+    
+}
 /*
 INPUT STYLE
 -----------------------------------------------------------------------
 */
 input[name="search"] {
   display: inline-block;
-  margin: auto;
+  margin-left:auto;
   width: 500px ;
   background-image: url('https://img.icons8.com/material/24/000000/keyboard.png');
   background-repeat: no-repeat;
   background-position: 485px 7px;  
   line-height: 40px;
   border: 1px hsla(116, 0%, 93%, 1.00) solid;
-  border-radius: 25px;
+  border-right:none;
+  border-radius: 25px 0 0 25px;
   padding: 10px 15px;
   font:16px arial;
   margin-left: 20px;
   flex: none;
   text-decoration: none;
-  
+  outline:none
 }
+
+input[name="search"]:focus{
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 3px rgba(0, 0, 0, 0.6);
+}
+input[name="search"]:hover{
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 3px rgba(0, 0, 0, 0.6);
+}
+
+/*
+DownBar Buttons
+--------------------------------------------------------
+*/
