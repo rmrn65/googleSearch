@@ -91,6 +91,7 @@ NavBar Buttons
   margin:0 auto 0 150px ;
   font-family: Arial, Helvetica, sans-serif;
   font-size: small;
+  min-width:830px;
 }
 
 div.navbar>ul{
@@ -122,9 +123,46 @@ div.navbar li:hover{
 MAIN PAGE 
 -------------------------------------------------------------------------------------
 */
+/*
+Twitter
+*/
 #searches{
   color:#C4C4C4;
   font-family: Arial, Helvetica, sans-serif;
-  padding: 10px 0 10px 150px;
+  padding: 0 0 0 150px;
   font-size:smaller;
+  margin:0;
 }
+#twitter{
+  margin: 10px 10px 10px 150px;
+  border: 1px solid #C4C4C4;
+  border-radius: 15px;
+  padding:10px 10px 10px 10px;
+  min-width: 300px;
+  max-width:600px;  
+  font-family: Arial, Helvetica, sans-serif;
+}
+#twitter >p{
+  font-size:14px;
+  margin:4px;
+  padding: 0;
+  border:0;
+}
+#twitter > h3{
+  font-size: 18px;
+  margin:0;
+  padding:0;
+  border:0;
+}
+#twitter > h3:hover{
+  text-decoration: underline;
+}
+.Title{
+  text-decoration: none;
+}
+
+#ul1 , #ul2{
+display:inline-block;
+list-style-type: none;
+}
+
